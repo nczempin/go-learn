@@ -7,4 +7,8 @@ func main() {
 	num[0] = 3
 	firstSixPrimes := [6]int{2, 3, 5, 7, 11, 13}
 	fmt.Println(firstSixPrimes)
+
+	for _, v := range firstSixPrimes {
+		fmt.Println(v)
+	}
 }
